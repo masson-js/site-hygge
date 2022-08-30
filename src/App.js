@@ -1,10 +1,11 @@
 
+import Gallery from './frames/gallery'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-     
+    <div className="App-container">
+     < Gallery />
     </div>
   );
 }
