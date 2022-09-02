@@ -2,5 +2,25 @@
 .main-container {
   width: auto;
   height: 500px;
+  margin:0;
+  padding: 0;
+  align-content: center;
   border: solid blue 4px
   }
+
+.nav-panel {
+  box-sizing: border-box;
+  width: 500px;
+  height: 500px;
+  margin: 0;
+  border:none;
+  padding: 0;
+  background: rgb(176, 0, 0)
+}
+
+ul {
+  display: list-item;
+  margin: 0;
+  border:none;
+  padding: 0;
+}

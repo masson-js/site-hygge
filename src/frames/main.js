@@ -3,7 +3,13 @@ import './styles/main.css';
 function Main() {
   return (
     <div className="main-container">
-     This is main frame
+      <nav className="nav-panel">
+        <ul>
+          <li>one</li>
+          <li>two</li>
+          <li>three</li>
+        </ul>
+      </nav>
     </div>
   );
 }
