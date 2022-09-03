@@ -1,0 +1,25 @@
+
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  background: red;
+  width: 500px;
+  height: 600px;
+
+}
+
+.nav-panel {
+  display: flex;
+  width: 80%;
+  background: green;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+
+  background: yellow;
+  width: 500px;
+  height: 600px;
+}

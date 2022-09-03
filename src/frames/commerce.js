@@ -1,4 +1,3 @@
-import './styles/commerce.css'
 
 function Commerce() {
   return (

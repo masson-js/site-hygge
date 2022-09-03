@@ -1,19 +1,20 @@
 
-import Main from './frames/main'
+import NavSection from './frames/main'
 import Gallery from './frames/gallery'
-import Commerce from './frames/commerce'
-import Contact from './frames/contact'
-import './frames/styles/App.css';
+
+import './frames/styles/frames.css'
 
 function App() {
   return (
-    <div className="App-container">
-      < Main 
-
-      />
-      < Gallery />
-      < Commerce />
-      < Contact />
+    <div className="App">
+      <>
+      
+        < NavSection />
+        < Gallery />
+        
+        
+        
+      </>
     </div>
   );
 }
